@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import Project from "./components/Project";
 import Header from "./components/Header";
 import About from "./components/About";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <About />
       
      
-      {/* <Footer /> */}
+      <Footer />
     </div> 
   );
 }

@@ -3,11 +3,11 @@ import React from 'react';
 
 function Nav() {
     return (
-        <ul class="nav">
-            <li class="nav-item">About me</li>
-            <li class="nav-item">Portfolio</li>
-            <li class="nav-item">Contact</li>
-            <li class="nav-item">Resume</li>
+        <ul className="nav">
+            <li className="nav-item">About me</li>
+            <li className="nav-item">Portfolio</li>
+            <li className="nav-item">Contact</li>
+            <li className="nav-item">Resume</li>
         </ul>
     )
 }

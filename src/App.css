@@ -11,7 +11,7 @@ html, body, #root {
 .header-bg {
   height: 120px;
   background-color: rgb(107, 107, 54);
-  background-image: linear-gradient(to bottom right, black, rgb(236, 236, 105));
+  background-image: linear-gradient(to bottom right, rgb(79, 131, 91), rgb(228, 182, 123));
   position: sticky; 
   top: 0;
   display: flex;
@@ -45,11 +45,12 @@ html, body, #root {
 
 .nav-item {
   margin: 0 1rem;
-  color: rgb(199, 184, 184);
+  color: rgb(241, 228, 228);
 }
 
 .about {
   font-size: small;
+  margin: 1rem;
 }
 
 .profile-img {
@@ -57,12 +58,27 @@ html, body, #root {
   margin: 1rem;
 }
 
-/* .footer-div {
-  position: fixed;
+.footer-div {
+  position: absolute;
   bottom: 0;
+  width: 100%;
+
 }
 
-.footer {
-  overflow: hidden;
-  position: fixed;
-} */
+.footer-list {
+  list-style-type: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-items: flex-end;
+  justify-content: flex-end;
+}
+
+.footer-item {
+  margin: 0 .5rem;
+}
+
+a {
+  color: black;
+}
