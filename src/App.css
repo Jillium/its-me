@@ -80,5 +80,9 @@ html, body, #root {
 }
 
 a {
-  color: black;
+  color: black !important;
+}
+
+a:hover {
+  color: rgb(228, 182, 123) !important;
 }
