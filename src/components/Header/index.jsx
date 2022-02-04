@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Nav from "../Nav";
 
 function Header() {
-
+    const [contactSelected, setContactSelected] = useState(false);
     const [categories] = useState([
         {
             name: 'About Me'
@@ -21,6 +21,7 @@ function Header() {
     ]);
 
     const [currentCategory, setCurrentCategory] = useState(categories[0]);
+    
 
     return (
         <header className='header-bg'> 
@@ -31,6 +32,8 @@ function Header() {
             categories={categories}
             setCurrentCategory={setCurrentCategory}
             currentCategory={currentCategory}
+            contactSelected={contactSelected}
+            setContactSelected={setContactSelected}
             />
         </header>
     )

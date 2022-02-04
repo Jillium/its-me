@@ -9,24 +9,18 @@ function Nav(props) {
     const {
         categories = [],
         setCurrentCategory,
-        currentCategory
+        currentCategory,
+        contactSelected,
+        setContactSelected
     } = props;
     
   
      return (
         <ul className="nav">
-            {categories.map((category) => (
-                <li
-                    className={`nav-item ${ currentCategory.name === category.name && 'navActive'}`
-            } key={category.name}
-                >
-                    <span onClick={() => {
-                        setCurrentCategory(category)
-                    }} >
-                        {category.name}
-                    </span>
-                </li>
-            ))}
+           <a href="#about" onClick={() => setContactSelected(false)}><li className='nav-item'>About Me</li></a>
+           <li className='nav-item'>Portfolio</li>
+           <li className='nav-item'>Contact</li>
+           <li className='nav-item'>Resume</li>
         </ul>
     )
 }
