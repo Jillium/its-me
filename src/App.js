@@ -4,10 +4,11 @@ import React, { useState } from 'react';
 
 // import Project from "./components/Project";
 import Header from "./components/Header";
-import About from "./components/About";
+// import About from "./components/About";
 import Footer from "./components/Footer";
-import ContactForm from './components/Contact';
-import Portfolio from './components/Portfolio';
+// import ContactForm from './components/Contact';
+// import Portfolio from './components/Portfolio';
+import Resume from './components/Resume';
 
 
 function App() {
@@ -20,16 +21,18 @@ function App() {
     <div className="App">
       <Header />
       <main>
-        {!contactSelected ? (
+        {/* {!contactSelected ? (
           <>
           <About />
           </>
         ) : (
           <ContactForm />
-        )}
+        )} */}
 
+{/* 
+       <Portfolio /> */}
 
-       <Portfolio />
+       <Resume />
       
       
       
