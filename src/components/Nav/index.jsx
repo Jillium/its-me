@@ -1,36 +1,28 @@
 import React from 'react';
 
-// import image from '../../../public/assets/header1.png';
 
-function Nav() {
 
-    const navCategories = [
-        {
-            name: 'About Me'
-        },
-        {
-            name: 'Portfolio'
-        },
-        {
-            name: 'Contact'
-        },
-        {
-            name: 'Resume'
-        }
+function Nav(props) {
+  
+    
 
-    ]
-
-    function categorySelected(name) {
-        console.log(`${name} clicked`);
-    }
-    return (
+    const {
+        categories = [],
+        setCurrentCategory,
+        currentCategory
+    } = props;
+    
+  
+     return (
         <ul className="nav">
-            {navCategories.map((category) => (
+            {categories.map((category) => (
                 <li
-                    className='nav-item'
-                    key={category.name}
+                    className={`nav-item ${ currentCategory.name === category.name && 'navActive'}`
+            } key={category.name}
                 >
-                    <span onClick={() => categorySelected(category.name)} >
+                    <span onClick={() => {
+                        setCurrentCategory(category)
+                    }} >
                         {category.name}
                     </span>
                 </li>

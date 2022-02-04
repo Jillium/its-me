@@ -86,3 +86,20 @@ a {
 a:hover {
   color: rgb(228, 182, 123) !important;
 }
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mx-1 {
+  margin-right: var(--spacing-one);
+  margin-left: var(--spacing-one);
+}
+
+.img-thumbnail {
+  width: auto;
+  height: 300px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
