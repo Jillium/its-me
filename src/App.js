@@ -14,10 +14,11 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <ContactForm />
       {/* <Portfolio /> */}
       {/* <About /> */}
       
-      <ContactForm />
+      
       <Footer />
     </div> 
   );
