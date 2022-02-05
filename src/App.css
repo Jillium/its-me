@@ -48,6 +48,11 @@ html, body, #root {
   color: rgb(241, 228, 228);
 }
 
+.nav-item:hover {
+  opacity: 50%;
+  font-size: large;
+}
+
 .about {
   font-size: small;
   margin: 1rem;
@@ -56,6 +61,12 @@ html, body, #root {
 .profile-img {
   border-radius: 15px;
   margin: 1rem;
+  width: 180px;
+  height: 250px;
+}
+
+.profile-img:hover {
+  opacity: 80%;
 }
 
 .footer-div {
@@ -111,14 +122,27 @@ a:hover {
   width: 40px;
 }
 
+.icon:hover {
+  opacity: 50%;
+}
+
 .icon-instagram {
   height: 40px;
   width: 60px;
 }
 
+.icon-instagram:hover {
+    opacity: 50%;
+}
+
 .button {
   margin: 1rem;
 }
+
+.github-icon:hover {
+  opacity: 50%;
+}
+
 
 .input {
   width: 30%;
@@ -146,13 +170,23 @@ a:hover {
   
   width: 60%;
 }
-@media (min-width: 1024px) {
+@media (min-width: 1023px) {
     .profile-img {
-      width: 380px;
+      width: 350px;
       height: 475px;
     }
 
     .about {
       font-size: large;
+    }
+
+    .nav {
+      list-style-type: none;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-items: center;
+      justify-content: center;
+
     }
 }

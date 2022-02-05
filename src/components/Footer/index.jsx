@@ -8,12 +8,15 @@ function Footer() {
     return (
    <div className="footer-div">
        <footer className="footer">
+           
        <ul className="footer-list">
-           <li className="footer-item"><a href="https://github.com/Jillium"  target="_blank" rel="noreferrer"><img src={github} alt="github-icon"/></a></li>
+           <li className='footer-item'>Follow me on ....    </li>
+           <li className="footer-item"><a href="https://github.com/Jillium"  target="_blank" rel="noreferrer"><img src={github} className='github-icon' alt="github-icon"/></a></li>
            <li className="footer-item"><a href="https://www.instagram.com/shutupandsmile21/" target="_blank" rel="noreferrer"><img src={instagram} alt="instagram-icon" className='icon-instagram'></img></a></li>
            <li className="footer-item"><a href="https://www.linkedin.com/in/jillholmes688a23215/" target="_blank" rel="noreferrer"><img src={linkedIn} alt="linked-in-icon" className='icon'></img></a></li>
            
        </ul>
+       
        </footer>
    </div>
     )
