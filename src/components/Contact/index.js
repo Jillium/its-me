@@ -39,16 +39,16 @@ function ContactForm() {
             <h1>Contact Me</h1>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
-                    <label htmlFor='name'>Name:</label>
-                    <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
+                    {/* <label htmlFor='name'>Name: </label> */}
+                    <input type="text" className='input' placeholder='Name' name="name" defaultValue={name} onBlur={handleChange} />
                 </div>
                 <div>
-                    <label htmlFor='email'>Email address:</label>
-                    <input type="text" name="email" defaultValue={email} onBlur={handleChange} />
+                    {/* <label htmlFor='email'>Email: </label> */}
+                    <input type="text" className='input' placeholder="Email" name="email" width="100%" defaultValue={email} onBlur={handleChange} />
                 </div>
                 <div>
-                    <label htmlFor='message'>Message:</label>
-                    <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+                    {/* <label htmlFor='message'>Message:</label> */}
+                    <textarea name="message" className='message' placeholder="Message" rows="5" defaultValue={message} onBlur={handleChange} />
                 </div>
                 {errorMessage && (
                     <div>
@@ -57,7 +57,7 @@ function ContactForm() {
                 )}
                 <button type="submit">Submit</button>
             </form>
-            <button onClick={() => window.location = 'mailto:holmesjillanne@gmail.com'}>Email Me Instead!</button>
+            <button className="button" onClick={() => window.location = 'mailto:holmesjillanne@gmail.com'}>Email Me Instead!</button>
         </section>
     )
 }

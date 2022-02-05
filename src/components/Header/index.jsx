@@ -2,25 +2,16 @@ import React, { useState } from 'react';
 
 import Nav from "../Nav";
 
-function Header() {
-    const [contactSelected, setContactSelected] = useState(false);
-    const [categories] = useState([
-        {
-            name: 'About Me'
-        },
-        {
-            name: 'Portfolio'
-        },
-        {
-            name: 'Contact'
-        },
-        {
-            name: 'Resume'
-        }
+function Header(props) {
+    
+    const {
+        setCategorySelected
+    } = props;
 
-    ]);
 
-    const [currentCategory, setCurrentCategory] = useState(categories[0]);
+    
+
+    
     
 
     return (
@@ -29,11 +20,7 @@ function Header() {
             <h1 className='header-name'>Jill Holmes</h1>
             
             <Nav 
-            categories={categories}
-            setCurrentCategory={setCurrentCategory}
-            currentCategory={currentCategory}
-            contactSelected={contactSelected}
-            setContactSelected={setContactSelected}
+            setCategorySelected={setCategorySelected}
             />
         </header>
     )

@@ -59,7 +59,7 @@ html, body, #root {
 }
 
 .footer-div {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
 
@@ -90,7 +90,9 @@ a:hover {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
+
 
 .mx-1 {
   margin-right: var(--spacing-one);
@@ -98,8 +100,59 @@ a:hover {
 }
 
 .img-thumbnail {
-  width: auto;
-  height: 300px;
+  width: 40%;
+  height: 100px;
   margin-bottom: 50px;
   cursor: pointer;
+}
+
+.icon {
+  height: 32px;
+  width: 40px;
+}
+
+.icon-instagram {
+  height: 40px;
+  width: 60px;
+}
+
+.button {
+  margin: 1rem;
+}
+
+.input {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.message {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.resume {
+  
+  width: 60%;
+}
+@media (min-width: 1024px) {
+    .profile-img {
+      width: 380px;
+      height: 475px;
+    }
+
+    .about {
+      font-size: large;
+    }
 }

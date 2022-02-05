@@ -2,44 +2,48 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from 'react';
 
-// import Project from "./components/Project";
+
 import Header from "./components/Header";
-// import About from "./components/About";
+import About from "./components/About";
 import Footer from "./components/Footer";
-// import ContactForm from './components/Contact';
-// import Portfolio from './components/Portfolio';
+import ContactForm from './components/Contact';
+import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
 
 
 function App() {
 
-  const [contactSelected, setContactSelected] = useState(false);
-  // const [porfolioSelected, setPortfolioSelected] = useState(false);
+  const [category, setCategorySelected] = useState("About-Me");
+ 
 
 
   return (
     <div className="App">
-      <Header />
+      <Header setCategorySelected={setCategorySelected}/>
       <main>
-        {/* {!contactSelected ? (
+        
+        {category === "ContactForm" && (
+          <>
+         <ContactForm />
+          </>
+        ) }
+        { category === "Portfolio" && (
+          <>
+          <Portfolio />
+          </>
+        )}
+        { category === "About-Me" && (
           <>
           <About />
           </>
-        ) : (
-          <ContactForm />
-        )} */}
+        )}
+        { category === "Resume" && (
+          <>
+          <Resume />
+          </>
+        )}
 
-{/* 
-       <Portfolio /> */}
-
-       <Resume />
-      
-      
-      
-      
-      
-      
-      
+        
       </main>
       <Footer />
     </div> 

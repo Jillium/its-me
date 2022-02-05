@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactForm from '../Contact';
 
 
 
@@ -7,22 +8,19 @@ function Nav(props) {
     
 
     const {
-        categories = [],
-        setCurrentCategory,
-        currentCategory,
-        contactSelected,
-        setContactSelected
+        setCategorySelected
     } = props;
     
   
      return (
         <ul className="nav">
-           <a href="#about" onClick={() => setContactSelected(false)}><li className='nav-item'>About Me</li></a>
-           <li className='nav-item'>Portfolio</li>
-           <li className='nav-item'>Contact</li>
-           <li className='nav-item'>Resume</li>
+           <li className='nav-item' onClick={() => setCategorySelected("About-Me")}>About Me</li>
+           <li className='nav-item' onClick={() => setCategorySelected("Portfolio")}>Portfolio</li>
+           <li className='nav-item' onClick={() => setCategorySelected("ContactForm")}>Contact</li>
+           <li className='nav-item' onClick={() => setCategorySelected("Resume")}>Resume</li>
         </ul>
     )
 }
 
 export default Nav;
+
