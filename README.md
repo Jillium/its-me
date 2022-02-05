@@ -5,7 +5,6 @@
   ## Table of Contents
   -[Project Description](#projectDescription)
   -[Table of Contents](#tableofContents)
-  -[Usage](#usage)
   -[License](#license)
   -[Questions](#questions)
 

@@ -55,7 +55,7 @@ function ContactForm() {
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-                <button type="submit">Submit</button>
+                <button type="submit" class="button">Submit</button>
             </form>
             <button className="button" onClick={() => window.location = 'mailto:holmesjillanne@gmail.com'}>Email Me Instead!</button>
         </section>

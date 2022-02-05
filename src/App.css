@@ -5,6 +5,7 @@
 
 html, body, #root {
   height: 100%;
+  font-family: 'Inter', sans-serif;
 }
 
 
@@ -117,6 +118,10 @@ a:hover {
   cursor: pointer;
 }
 
+.img-thumbnail:hover {
+  opacity: 75%;
+}
+
 .icon {
   height: 32px;
   width: 40px;
@@ -137,6 +142,12 @@ a:hover {
 
 .button {
   margin: 1rem;
+  border-radius: 5px;
+  background-color: rgb(228, 182, 123, .5);
+}
+
+.button:hover {
+  opacity: 75%
 }
 
 .github-icon:hover {
@@ -190,3 +201,7 @@ a:hover {
 
     }
 }
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,500&display=swap');
