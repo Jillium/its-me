@@ -2,6 +2,8 @@ import React from 'react';
 import pdf from "../../assets/pdf/resume.pdf";
 import resume1 from "../../assets/resume1.jpg";
 import resume2 from "../../assets/resume2.jpg";
+import { Document, Page, pdfjs } from 'react-pdf';
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 
 function Resume() {
@@ -13,8 +15,10 @@ function Resume() {
             <a href={pdf} target="_blank"><button className='button'>Download Resume</button></a>
             <section>
 
-                <img src={resume1} alt="resume-1" className='resume'></img>
-                <img src={resume2} alt="resume-2" className='resume'></img>
+                <Document file={pdf}></Document>
+
+                {/* <img src={resume1} alt="resume-1" className='resume'></img> */}
+                {/* <img src={resume2} alt="resume-2" className='resume'></img> */}
 
             </section>
         </div>
