@@ -12,7 +12,8 @@
   ## Project Description 
   This is an online portfoliio made to showcase my work to potential employers and collaborators. It is primarily built in React. 
 
-  
+  Check out my portfolio here!
+  https://jillium.github.io/react-portfolio/
   
   
   ## Languages Used 

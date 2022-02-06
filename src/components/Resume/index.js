@@ -15,7 +15,7 @@ function Resume() {
             <a href={pdf} target="_blank"><button className='button'>Download Resume</button></a>
             <section>
 
-                <Document file={pdf}></Document>
+                <Document file={pdf}><Page pageNumber={1} /><Page pageNumber={2} /></Document>
 
                 {/* <img src={resume1} alt="resume-1" className='resume'></img> */}
                 {/* <img src={resume2} alt="resume-2" className='resume'></img> */}
