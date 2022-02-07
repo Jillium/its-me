@@ -192,6 +192,13 @@ a:hover {
  
 }
 
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 
 @media (min-width: 1023px) {
     .profile-img {
@@ -201,6 +208,7 @@ a:hover {
 
     .about {
       font-size: large;
+      width: 60%;
     }
 
     .nav {
