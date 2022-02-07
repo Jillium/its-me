@@ -13,7 +13,7 @@
   This is an online portfoliio made to showcase my work to potential employers and collaborators. It is primarily built in React. 
 
   Check out my portfolio here!
-  https://jillium.github.io/react-portfolio/
+  https://jillium.github.io/its-me/
 
   <img src="./assets/../src/assets/screenshot1.png">
   
