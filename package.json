@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jillium.github.io/react-portfolio-for-Jill-Holmes",
+  "homepage": "http://jillium.github.io/its-me",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
