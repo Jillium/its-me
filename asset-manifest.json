@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/react-portfolio-for-jill-holmes/static/css/main.044b0e85.css",
-    "main.js": "/react-portfolio-for-jill-holmes/static/js/main.26e0d3c8.js",
-    "static/media/profile.JPG": "/react-portfolio-for-jill-holmes/static/media/profile.9ba464959a208e0b2d2e.JPG",
-    "static/media/moon-phases.png": "/react-portfolio-for-jill-holmes/static/media/moon-phases.9053a72c9408399aea30.png",
-    "static/media/deep-thoughts.png": "/react-portfolio-for-jill-holmes/static/media/deep-thoughts.3eaf3d094f74aea7ad99.png",
-    "static/media/no1fan.png": "/react-portfolio-for-jill-holmes/static/media/no1fan.aab5a1248ee5bbc8a22a.png",
-    "static/media/tech-blog.png": "/react-portfolio-for-jill-holmes/static/media/tech-blog.bee98dcd6a4ae0c2d662.png",
-    "static/media/password-generator.png": "/react-portfolio-for-jill-holmes/static/media/password-generator.fbdbd4efb366cb80f527.png",
-    "static/media/budget-tracker.png": "/react-portfolio-for-jill-holmes/static/media/budget-tracker.fea047688fcf83ae035a.png",
-    "static/media/resume.pdf": "/react-portfolio-for-jill-holmes/static/media/resume.cea0d09ef2563cec2b4a.pdf",
-    "static/media/instagram.png": "/react-portfolio-for-jill-holmes/static/media/instagram.17aa4e36c896f4129596.png",
-    "index.html": "/react-portfolio-for-jill-holmes/index.html",
-    "main.044b0e85.css.map": "/react-portfolio-for-jill-holmes/static/css/main.044b0e85.css.map",
-    "main.26e0d3c8.js.map": "/react-portfolio-for-jill-holmes/static/js/main.26e0d3c8.js.map"
+    "main.css": "/react-portfolio-for-Jill-Holmes/static/css/main.044b0e85.css",
+    "main.js": "/react-portfolio-for-Jill-Holmes/static/js/main.0f4418a0.js",
+    "static/media/profile.JPG": "/react-portfolio-for-Jill-Holmes/static/media/profile.9ba464959a208e0b2d2e.JPG",
+    "static/media/moon-phases.png": "/react-portfolio-for-Jill-Holmes/static/media/moon-phases.9053a72c9408399aea30.png",
+    "static/media/deep-thoughts.png": "/react-portfolio-for-Jill-Holmes/static/media/deep-thoughts.3eaf3d094f74aea7ad99.png",
+    "static/media/no1fan.png": "/react-portfolio-for-Jill-Holmes/static/media/no1fan.aab5a1248ee5bbc8a22a.png",
+    "static/media/tech-blog.png": "/react-portfolio-for-Jill-Holmes/static/media/tech-blog.bee98dcd6a4ae0c2d662.png",
+    "static/media/password-generator.png": "/react-portfolio-for-Jill-Holmes/static/media/password-generator.fbdbd4efb366cb80f527.png",
+    "static/media/budget-tracker.png": "/react-portfolio-for-Jill-Holmes/static/media/budget-tracker.fea047688fcf83ae035a.png",
+    "static/media/resume.pdf": "/react-portfolio-for-Jill-Holmes/static/media/resume.cea0d09ef2563cec2b4a.pdf",
+    "static/media/instagram.png": "/react-portfolio-for-Jill-Holmes/static/media/instagram.17aa4e36c896f4129596.png",
+    "index.html": "/react-portfolio-for-Jill-Holmes/index.html",
+    "main.044b0e85.css.map": "/react-portfolio-for-Jill-Holmes/static/css/main.044b0e85.css.map",
+    "main.0f4418a0.js.map": "/react-portfolio-for-Jill-Holmes/static/js/main.0f4418a0.js.map"
   },
   "entrypoints": [
     "static/css/main.044b0e85.css",
-    "static/js/main.26e0d3c8.js"
+    "static/js/main.0f4418a0.js"
   ]
 }
