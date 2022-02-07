@@ -14,6 +14,8 @@
 
   Check out my portfolio here!
   https://jillium.github.io/react-portfolio/
+
+  <img src="./assets/../src/assets/screenshot1.png">
   
   
   ## Languages Used 

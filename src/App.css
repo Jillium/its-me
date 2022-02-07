@@ -13,12 +13,12 @@ html, body, #root {
   height: 120px;
   background-color: rgb(107, 107, 54);
   background-image: linear-gradient(to bottom right, rgb(79, 131, 91), rgb(228, 182, 123));
-  position: sticky; 
+  /* position: sticky;  */
   top: 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
-  align-content: flex-start;
+  align-content: flex-end;
   justify-content: space-around;
   align-items: baseline;
   
@@ -52,6 +52,7 @@ html, body, #root {
 .nav-item:hover {
   opacity: 50%;
   font-size: large;
+  cursor: pointer;
 }
 
 .about {
@@ -74,6 +75,13 @@ html, body, #root {
   position: fixed;
   bottom: 0;
   width: 100%;
+  background-image: linear-gradient(to bottom right,rgb(228, 182, 123), rgb(79, 131, 91) );
+  height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: flex-end;
+  align-items: flex-end;
 
 }
 
@@ -93,6 +101,7 @@ html, body, #root {
 
 a {
   color: black !important;
+  text-decoration: none !important;
 }
 
 a:hover {
@@ -178,9 +187,12 @@ a:hover {
 }
 
 .resume {
-  
-  width: 60%;
+  display: flex;
+  justify-content: center;
+ 
 }
+
+
 @media (min-width: 1023px) {
     .profile-img {
       width: 350px;
