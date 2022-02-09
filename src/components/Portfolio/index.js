@@ -5,7 +5,10 @@ function Portfolio() {
 
 
     return (
+
+        <section>
         <Project />
+        </section>
     )
 }
 
