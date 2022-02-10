@@ -15,39 +15,39 @@ import Resume from './components/Resume';
 function App() {
 
   const [category, setCategorySelected] = useState("About-Me");
- 
+
 
 
   return (
     <div className="App">
-      <Header setCategorySelected={setCategorySelected}/>
-      <main>
-        
+      <Header setCategorySelected={setCategorySelected} />
+      <main className='main'>
+
         {category === "ContactForm" && (
           <>
-         <ContactForm />
-          </>
-        ) }
-        { category === "Portfolio" && (
-          <>
-          <Portfolio />
+            <ContactForm />
           </>
         )}
-        { category === "About-Me" && (
+        {category === "Portfolio" && (
           <>
-          <About />
+            <Portfolio />
           </>
         )}
-        { category === "Resume" && (
+        {category === "About-Me" && (
           <>
-          <Resume />
+            <About />
+          </>
+        )}
+        {category === "Resume" && (
+          <>
+            <Resume />
           </>
         )}
 
-        
+        <Footer />
       </main>
-      <Footer />
-    </div> 
+
+    </div>
   );
 }
 
