@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/its-me/static/css/main.044b0e85.css",
-    "main.js": "/its-me/static/js/main.f9d8a522.js",
+    "main.css": "/its-me/static/css/main.e9a4c064.css",
+    "main.js": "/its-me/static/js/main.3e9ef570.js",
     "static/media/profile.JPG": "/its-me/static/media/profile.9ba464959a208e0b2d2e.JPG",
     "static/media/moon-phases.png": "/its-me/static/media/moon-phases.9053a72c9408399aea30.png",
     "static/media/deep-thoughts.png": "/its-me/static/media/deep-thoughts.3eaf3d094f74aea7ad99.png",
@@ -12,11 +12,11 @@
     "static/media/resume.pdf": "/its-me/static/media/resume.cea0d09ef2563cec2b4a.pdf",
     "static/media/instagram.png": "/its-me/static/media/instagram.17aa4e36c896f4129596.png",
     "index.html": "/its-me/index.html",
-    "main.044b0e85.css.map": "/its-me/static/css/main.044b0e85.css.map",
-    "main.f9d8a522.js.map": "/its-me/static/js/main.f9d8a522.js.map"
+    "main.e9a4c064.css.map": "/its-me/static/css/main.e9a4c064.css.map",
+    "main.3e9ef570.js.map": "/its-me/static/js/main.3e9ef570.js.map"
   },
   "entrypoints": [
-    "static/css/main.044b0e85.css",
-    "static/js/main.f9d8a522.js"
+    "static/css/main.e9a4c064.css",
+    "static/js/main.3e9ef570.js"
   ]
 }
